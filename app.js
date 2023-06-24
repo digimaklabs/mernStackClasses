@@ -7,6 +7,8 @@ if(marks >=90){
     console.log("C")
 } else if(marks>=60){
     console.log("D")
-} else {
+} else if(marks>=90){
+    console.log("E")
+}else {
     console.log("F")
 }
